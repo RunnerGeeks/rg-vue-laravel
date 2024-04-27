@@ -48,7 +48,7 @@ export default {
           } else {
               try {
                   // Realiza la solicitud para obtener los usuarios
-                  const response = await axios.get('http://localhost:8000/api/users', {
+                  const response = await axios.get('http://35.162.90.4/api/users', {
                       headers: {
                           'Authorization': `Bearer ${token}`
                       }

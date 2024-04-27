@@ -78,7 +78,7 @@ export default {
         const login = async () => {
             try {
                 // Realiza la solicitud de inicio de sesión
-                const response = await axios.post('http://localhost:8000/api/login', {
+                const response = await axios.post('http://35.162.90.4/api/login', {
                     email: email.value,
                     password: password.value
                 });
