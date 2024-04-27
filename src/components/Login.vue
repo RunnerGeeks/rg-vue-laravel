@@ -4,7 +4,7 @@
         <v-row justify="center">
             <v-col cols="12" sm="8" md="4" lg="12">
                 <v-card class="elevation-12">
-                    <v-toolbar color="primary" dark flat>
+                    <v-toolbar color="secondary" dark flat>
                         <!-- Define el título de la barra de la tarjeta -->
                         <v-toolbar-title>Iniciar sesión</v-toolbar-title>
                     </v-toolbar>
