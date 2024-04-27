@@ -78,7 +78,7 @@ export default {
         const login = async () => {
             try {
                 // Realiza la solicitud de inicio de sesión
-                const response = await axios.post('http://35.162.90.4/api/login', {
+                const response = await axios.post('https://api.runnergeeks.com/api/login', {
                     email: email.value,
                     password: password.value
                 });
